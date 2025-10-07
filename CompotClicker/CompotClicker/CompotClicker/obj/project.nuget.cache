@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UCrMiAhNuEi26IyyMtzUtd8zVsGIEPWhtjJADAcTTPcFUQtav9PI/5xDDSv3GLds23Bvc8qo2nA7CbhUd0PMAg==",
+  "dgSpecHash": "fgQMjM8MC3GrSLAMeh2/rqlynx4EKZNE2f9i06Q0vDEenW9BJZO2hDGZdOwZDEVMDYfikx24xpbfQTwKvbUWAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
+  "projectFilePath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egzamin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\egzamin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

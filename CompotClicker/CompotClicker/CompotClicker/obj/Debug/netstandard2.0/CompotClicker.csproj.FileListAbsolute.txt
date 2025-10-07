@@ -1,0 +1,15 @@
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.deps.json
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.dll
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.pdb
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.csproj.AssemblyReference.cache
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.AssemblyInfoInputs.cache
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.AssemblyInfo.cs
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.csproj.CoreCompileInputs.cache
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.dll
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\refint\CompotClicker.dll
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.pdb
+C:\Users\egzamin\Documents\GitHub\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ref\CompotClicker.dll

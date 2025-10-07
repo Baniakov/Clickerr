@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
+      "projectUniqueName": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
       "projectName": "CompotClicker",
-      "projectPath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
+      "projectPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj",
       "packagesPath": "C:\\Users\\egzamin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\obj\\",
+      "outputPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

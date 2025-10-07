@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
+      "projectUniqueName": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
       "projectName": "CompotClicker.Android",
-      "projectPath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
+      "projectPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
       "packagesPath": "C:\\Users\\egzamin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker.Android\\obj\\",
+      "outputPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj": {
-              "projectPath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj"
+            "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj": {
+              "projectPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj"
             }
           }
         }

@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace CompotClicker
 {
@@ -10,19 +8,42 @@ namespace CompotClicker
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-        }
+            MainPage = new TabbedPage
+            {
+                Children =
+                {
 
-        protected override void OnStart()
-        {
-        }
-
-        protected override void OnSleep()
-        {
-        }
-
-        protected override void OnResume()
-        {
-        }
+                    new ContentPage
+                    {
+                        Title = "Ustawienia",
+                        Content = new Label
+                        {
+                            Text = "Tu możesz zmienić ustawienia.",
+                            HorizontalOptions = LayoutOptions.Center,
+                            VerticalOptions = LayoutOptions.Center
+                        }
+                    },
+                    new ContentPage
+                    {
+                        Title = "Kompot",
+                        Content = new Label
+                        {
+                            Text = "Witaj w CompotClicker!",
+                            HorizontalOptions = LayoutOptions.Center,
+                            VerticalOptions = LayoutOptions.Center
+                        }
+                    },
+                    new ContentPage
+                    {
+                        Title = "Sklep",
+                        Content = new Label
+                        {
+                            Text = "Tu możesz przewalić swój dorobek życia.",
+                            HorizontalOptions = LayoutOptions.Center,
+                            VerticalOptions = LayoutOptions.Center
+                        }
+                }
+            }
+            };
     }
-}
+    } }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DY4AjVtVSZ993Jeq8MEQy5ilJIYpSd/2fIXJhHhVMqMRhcSFJz8mGboEkXa6umQEOyIFQWC96rcyKMEnLAb/xw==",
+  "dgSpecHash": "JCNeU+/BvV4gzzDZSupV4wzYo4GrVyQtbYQIGlo040QCvKASBHanKWj9RnHIXK/p/DPsTytEmJH6qhiO7D3Gaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egzamin\\Desktop\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
+  "projectFilePath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egzamin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\egzamin\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
