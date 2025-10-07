@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker.Android", "CompotClicker\CompotClicker.Android\CompotClicker.Android.csproj", "{7B4363EB-877F-4EEB-A924-A62FF25518E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker", "CompotClicker\CompotClicker\CompotClicker.csproj", "{AD79B515-1B62-41F1-8C77-E0D01A82BF32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4363EB-877F-4EEB-A924-A62FF25518E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A47C2A1C-81A5-4C60-8856-96C2A9D5CE9B}
+	EndGlobalSection
+EndGlobal
