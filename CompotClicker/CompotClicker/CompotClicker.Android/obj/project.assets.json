@@ -3408,24 +3408,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\egzamin\\.nuget\\packages\\": {},
+    "C:\\Users\\miban\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
+      "projectUniqueName": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
       "projectName": "CompotClicker.Android",
-      "projectPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
-      "packagesPath": "C:\\Users\\egzamin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\obj\\",
+      "projectPath": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\CompotClicker.Android.csproj",
+      "packagesPath": "C:\\Users\\miban\\.nuget\\packages\\",
+      "outputPath": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\egzamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\miban\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,11 +3440,16 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj": {
-              "projectPath": "C:\\Users\\egzamin\\Documents\\GitHub\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj"
+            "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj": {
+              "projectPath": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\CompotClicker.csproj"
             }
           }
         }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

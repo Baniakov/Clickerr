@@ -23,16 +23,7 @@ namespace CompotClicker
                             VerticalOptions = LayoutOptions.Center
                         }
                     },
-                    new ContentPage
-                    {
-                        Title = "Kompot",
-                        Content = new Label
-                        {
-                            Text = "Witaj w CompotClicker!",
-                            HorizontalOptions = LayoutOptions.Center,
-                            VerticalOptions = LayoutOptions.Center
-                        }
-                    },
+                    new GamePage(),
                     new ContentPage
                     {
                         Title = "Sklep",
