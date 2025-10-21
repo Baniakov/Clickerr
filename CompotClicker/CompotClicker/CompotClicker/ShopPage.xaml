@@ -1,0 +1,35 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CompotClicker"
+             x:Class="CompotClicker.ShopPage"
+             Title="Sklep">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:InverseBoolConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="30" Spacing="20">
+        <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} punktów'}"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Label Text="Dostępne ulepszenia:" FontSize="18" />
+
+        <CollectionView ItemsSource="{Binding Upgrades}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5" HasShadow="True">
+                        <StackLayout>
+                            <Label Text="{Binding Name}" FontSize="18" />
+                            <Label Text="{Binding Cost, StringFormat='Koszt: {0:F0}'}" FontSize="14" />
+                            <Button Text="Kup"
+                                    Command="{Binding BuyCommand}"
+                                    IsEnabled="{Binding IsPurchased, Converter={StaticResource InverseBoolConverter}}" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

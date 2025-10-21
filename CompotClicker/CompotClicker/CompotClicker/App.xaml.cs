@@ -10,31 +10,22 @@ namespace CompotClicker
 
             MainPage = new TabbedPage
             {
-                Children =
+            Children =
                 {
-
+                    new GamePage { Title = "Kompot" },
+                    new ShopPage { Title = "Sklep" },
                     new ContentPage
                     {
                         Title = "Ustawienia",
                         Content = new Label
-                        {
-                            Text = "Tu możesz zmienić ustawienia.",
-                            HorizontalOptions = LayoutOptions.Center,
-                            VerticalOptions = LayoutOptions.Center
+                            {
+                                Text = "Tu możesz zmienić ustawienia.",
+                                HorizontalOptions = LayoutOptions.Center,
+                                VerticalOptions = LayoutOptions.Center
+                            }
                         }
-                    },
-                    new GamePage(),
-                    new ContentPage
-                    {
-                        Title = "Sklep",
-                        Content = new Label
-                        {
-                            Text = "Tu możesz przewalić swój dorobek życia.",
-                            HorizontalOptions = LayoutOptions.Center,
-                            VerticalOptions = LayoutOptions.Center
-                        }
-                }
-            }
-            };
-    }
+                    }
+                };
+
+        }
     } }

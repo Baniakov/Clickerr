@@ -30,3 +30,4 @@ C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstan
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.pdb
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ref\CompotClicker.dll
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\GamePage.xaml.g.cs
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ShopPage.xaml.g.cs
