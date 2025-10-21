@@ -2,34 +2,75 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CompotClicker"
              x:Class="CompotClicker.ShopPage"
-             Title="Sklep">
+             Title="🛒 Sklep"
+             BackgroundColor="#F9FAFB">
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:InverseBoolConverter x:Key="InverseBoolConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout Padding="30" Spacing="20">
-        <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} punktów'}"
-               FontSize="24"
-               HorizontalOptions="Center" />
+    <StackLayout Padding="30" Spacing="25">
 
-        <Label Text="Dostępne ulepszenia:" FontSize="18" />
+        <Frame BackgroundColor="#FFFFFF"
+               CornerRadius="12"
+               Padding="20"
+               HasShadow="True">
+            <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} punktów'}"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   TextColor="#333333"
+                   HorizontalOptions="Center" />
+        </Frame>
 
-        <CollectionView ItemsSource="{Binding Upgrades}">
+        <Label Text="Dostępne ulepszenia:"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="#444444"
+               Margin="0,10,0,0" />
+
+        <CollectionView ItemsSource="{Binding Upgrades}"
+                        Margin="0,0,0,10">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame Padding="10" Margin="5" HasShadow="True">
-                        <StackLayout>
-                            <Label Text="{Binding Name}" FontSize="18" />
-                            <Label Text="{Binding Cost, StringFormat='Koszt: {0:F0}'}" FontSize="14" />
+                    <Frame Padding="15"
+                           Margin="5"
+                           CornerRadius="10"
+                           BackgroundColor="#FFFFFF"
+                           HasShadow="True">
+                        <StackLayout Spacing="8">
+                            <Label Text="{Binding Name}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="#222222" />
+
+                            <Label Text="{Binding Cost, StringFormat='Koszt: {0:F0}'}"
+                                   FontSize="14"
+                                   TextColor="#666666" />
+
                             <Button Text="Kup"
-                                    Command="{Binding BuyCommand}"
-                                    IsEnabled="{Binding IsPurchased, Converter={StaticResource InverseBoolConverter}}" />
+                                Command="{Binding BuyCommand}"
+                                IsEnabled="{Binding IsPurchased, Converter={StaticResource InverseBoolConverter}}"
+                                TextColor="White"
+                                CornerRadius="8"
+                                FontAttributes="Bold"
+                                HeightRequest="40">
+                                <Button.Triggers>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsPurchased}" Value="False">
+                                        <Setter Property="BackgroundColor" Value="#4CAF50" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsPurchased}" Value="True">
+                                        <Setter Property="BackgroundColor" Value="#B0B0B0" />
+                                    </DataTrigger>
+                                </Button.Triggers>
+                            </Button>
+
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
     </StackLayout>
 </ContentPage>

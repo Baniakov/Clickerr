@@ -29,8 +29,6 @@ C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstan
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\refint\CompotClicker.dll
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\CompotClicker.pdb
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ref\CompotClicker.dll
-C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\GamePage.xaml.g.cs
-C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ShopPage.xaml.g.cs
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.deps.json
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.dll
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\bin\Debug\netstandard2.0\CompotClicker.pdb
@@ -49,3 +47,5 @@ C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClick
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\ref\CompotClicker.dll
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\GamePage.xaml.g.cs
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\ShopPage.xaml.g.cs
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\GamePage.xaml.g.cs
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\ShopPage.xaml.g.cs

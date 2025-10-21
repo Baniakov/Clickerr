@@ -10,7 +10,7 @@ namespace CompotClicker
 
             MainPage = new TabbedPage
             {
-            Children =
+                Children =
                 {
                     new GamePage { Title = "Kompot" },
                     new ShopPage { Title = "Sklep" },
@@ -25,7 +25,8 @@ namespace CompotClicker
                             }
                         }
                     }
-                };
+            };
 
         }
-    } }
+    }
+}

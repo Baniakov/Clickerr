@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\",
+  "WorkspaceRootPath": "C:\\projekty\\Clickerr\\CompotClicker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\users\\egzamin\\desktop\\cliker\\clickerr\\compotclicker\\compotclicker\\compotclicker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\shoppage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\shoppage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\users\\egzamin\\desktop\\cliker\\clickerr\\compotclicker\\compotclicker\\compotclicker\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\users\\egzamin\\desktop\\cliker\\clickerr\\compotclicker\\compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\gamepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\gamepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\MainPage.xaml.cs",
-              "RelativeToolTip": "CompotClicker\\CompotClicker\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:34:30.164Z",
+              "Title": "ShopPage.xaml",
+              "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\ShopPage.xaml",
+              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Views\\ShopPage.xaml",
+              "ToolTip": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\ShopPage.xaml",
+              "RelativeToolTip": "CompotClicker\\CompotClicker\\Views\\ShopPage.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-21T12:34:20.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\MainPage.xaml",
-              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\MainPage.xaml",
-              "RelativeToolTip": "CompotClicker\\CompotClicker\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GamePage.xaml",
+              "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\GamePage.xaml",
+              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Views\\GamePage.xaml",
+              "ToolTip": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\GamePage.xaml",
+              "RelativeToolTip": "CompotClicker\\CompotClicker\\Views\\GamePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-21T10:34:24.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\App.xaml.cs",
-              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\egzamin\\Desktop\\cliker\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\App.xaml.cs",
-              "RelativeToolTip": "CompotClicker\\CompotClicker\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:29:12.237Z",
+              "WhenOpened": "2025-10-21T12:32:02.302Z",
               "EditorCaption": ""
             }
           ]
