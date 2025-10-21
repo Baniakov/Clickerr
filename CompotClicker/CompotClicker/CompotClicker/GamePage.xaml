@@ -3,21 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CompotClicker"
              x:Class="CompotClicker.GamePage"
-             Title="Kompot">
+             Title="🍎 Kompot"
+             BackgroundColor="#F9FAFB">
 
-    <StackLayout Padding="30" Spacing="20">
-        <Label Text="{Binding TotalPoints, StringFormat='Punkty: {0:F0}'}"
-               FontSize="24"
-               HorizontalOptions="Center" />
+    <StackLayout Padding="30" Spacing="25" VerticalOptions="Center">
 
-        <Label Text="{Binding PointsPerClick, StringFormat='Na klik: {0}'}"
-               FontSize="18"
-               HorizontalOptions="Center" />
+        <Frame BackgroundColor="#FFFFFF"
+               CornerRadius="12"
+               Padding="20"
+               HasShadow="True">
+            <StackLayout Spacing="10">
+                <Label Text="{Binding TotalPoints, StringFormat='Punkty: {0:F0}'}"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#333333"
+                       HorizontalOptions="Center" />
 
-        <Button ImageSource="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png"
-                FontSize="Large"
-                Background="#00000000"
-                Command="{Binding ClickCommand}"></Button>
+                <Label Text="{Binding PointsPerClick, StringFormat='Na klik: {0}'}"
+                       FontSize="20"
+                       TextColor="#666666"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+        </Frame>
+
+        <ImageButton Source="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png"
+                     BackgroundColor="Transparent"
+                     Command="{Binding ClickCommand}"
+                     WidthRequest="200"
+                     HeightRequest="200"
+                     Aspect="AspectFit"
+                     Padding="0"
+                     BorderWidth="0"
+                     HorizontalOptions="Center">
+            <ImageButton.Triggers>
+                <Trigger TargetType="ImageButton" Property="IsPressed" Value="True">
+                    <Setter Property="Scale" Value="0.95" />
+                </Trigger>
+            </ImageButton.Triggers>
+        </ImageButton>
+
+        <Label Text="Kliknij jabłko, by zdobywać punkty!"
+               FontSize="16"
+               TextColor="#888888"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0" />
 
     </StackLayout>
 </ContentPage>
