@@ -14,7 +14,7 @@ androidlinkskip=
 androidsdkbuildtoolsversion=32.0.0
 androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
-javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.14\
+javasdkpath=c:\program files\java\jdk-21\
 androidsequencepointsmode=none
 xamarinandroidversion=13.2.2-0
 monosymbolarchive=false
@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638965949845503109
+_nugetassetstimestamp=638966403078235571
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\projekty\clickerr\compotclicker\compotclicker\compotclicker.android\compotclicker.android.csproj
+projectfullpath=c:\users\egzamin\desktop\cliker\clickerr\compotclicker\compotclicker\compotclicker.android\compotclicker.android.csproj

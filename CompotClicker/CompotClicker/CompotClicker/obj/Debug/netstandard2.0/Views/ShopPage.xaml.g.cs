@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CompotClicker.GamePage.xaml", "GamePage.xaml", typeof(global::CompotClicker.GamePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CompotClicker.Views.ShopPage.xaml", "Views/ShopPage.xaml", typeof(global::CompotClicker.ShopPage))]
 
 namespace CompotClicker {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GamePage.xaml")]
-    public partial class GamePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ShopPage.xaml")]
+    public partial class ShopPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(GamePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ShopPage));
         }
     }
 }
