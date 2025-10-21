@@ -14,9 +14,10 @@
                FontSize="18"
                HorizontalOptions="Center" />
 
-        <Button Text="🍎 Kliknij po kompot!"
+        <Button ImageSource="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png"
                 FontSize="Large"
-                Command="{Binding ClickCommand}" />
+                Background="#00000000"
+                Command="{Binding ClickCommand}"></Button>
 
     </StackLayout>
 </ContentPage>
