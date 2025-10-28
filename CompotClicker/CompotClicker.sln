@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker.Android", "CompotClicker\CompotClicker.Android\CompotClicker.Android.csproj", "{7B4363EB-877F-4EEB-A924-A62FF25518E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker", "CompotClicker\CompotClicker\CompotClicker.csproj", "{AD79B515-1B62-41F1-8C77-E0D01A82BF32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompotClicker", "CompotClicker\CompotClicker\CompotClicker.csproj", "{AD79B515-1B62-41F1-8C77-E0D01A82BF32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

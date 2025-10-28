@@ -28,6 +28,14 @@ namespace CompotClicker
             PurchasedItems = new HashSet<string>();
             LoadGame();
         }
+        public void ResetGame()
+        {
+            TotalPoints = 0;
+            PointsPerClick = 1; // Początkowa wartość punktów na kliknięcie
+            ClickCount = 0;
+            PurchasedItems.Clear(); // Usuwa wszystkie zakupione przedmioty
+            SaveGame(); // Zapisz dane
+        }
 
         public void AddClick()
         {
@@ -63,6 +71,7 @@ namespace CompotClicker
             Preferences.Set("ClickCount", ClickCount);
             Preferences.Set("PurchasedItems", string.Join(",", PurchasedItems.ToArray()));
         }
+
 
         private void LoadGame()
         {

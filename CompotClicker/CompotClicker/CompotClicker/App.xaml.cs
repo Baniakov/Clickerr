@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using CompotClicker.Views;
+using Xamarin.Forms;
 
 namespace CompotClicker
 {
@@ -8,25 +9,16 @@ namespace CompotClicker
         {
             InitializeComponent();
 
+            // Define the TabbedPage navigation
             MainPage = new TabbedPage
             {
                 Children =
                 {
-                    new GamePage { Title = "Kompot" },
-                    new ShopPage { Title = "Sklep" },
-                    new ContentPage
-                    {
-                        Title = "Ustawienia",
-                        Content = new Label
-                            {
-                                Text = "Tu możesz zmienić ustawienia.",
-                                HorizontalOptions = LayoutOptions.Center,
-                                VerticalOptions = LayoutOptions.Center
-                            }
-                        }
-                    }
+                    new GamePage { Title = "Kompot" }, // Tab 1 for GamePage
+                    new ShopPage { Title = "Sklep" },  // Tab 2 for ShopPage
+                    new SettingsPage() { Title = "Ustawienia" } // Tab 3 for SettingsPage
+                }
             };
-
         }
     }
 }
