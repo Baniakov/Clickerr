@@ -6,7 +6,7 @@ namespace CompotClicker
     {
         public string Id { get; private set; }
         public string Name { get; private set; }
-        public double Cost { get; private set; }
+        public double Cost { get; private set; }               // koszt w XP (waluta)
         public double BonusPerClick { get; private set; }
         public bool IsPurchased { get; set; }
 
@@ -31,7 +31,8 @@ namespace CompotClicker
                 return;
             }
 
-            if (GameService.Instance.TryPurchase(Cost, BonusPerClick))
+            // Używamy TryPurchaseXP — zakup opłacany jest z dostępnego XP (waluty).
+            if (GameService.Instance.TryPurchaseXP(Cost, BonusPerClick))
             {
                 IsPurchased = true;
                 Application.Current.MainPage.DisplayAlert("Sukces", "Zakupiono: " + Name + "!", "OK");
@@ -39,7 +40,7 @@ namespace CompotClicker
             }
             else
             {
-                Application.Current.MainPage.DisplayAlert("Brak punktów", "Nie stać cię na " + Name + ".", "OK");
+                Application.Current.MainPage.DisplayAlert("Brak XP", "Nie stać cię na " + Name + ".", "OK");
             }
         }
     }

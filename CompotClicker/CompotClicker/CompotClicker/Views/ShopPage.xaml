@@ -17,7 +17,8 @@
                CornerRadius="12"
                Padding="20"
                HasShadow="True">
-            <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} punktów'}"
+            <!-- Teraz pokazujemy ile XP (waluty) ma gracz -->
+            <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} XP'}"
                    FontSize="26"
                    FontAttributes="Bold"
                    TextColor="#333333"
@@ -45,7 +46,7 @@
                                    FontAttributes="Bold"
                                    TextColor="#222222" />
 
-                            <Label Text="{Binding Cost, StringFormat='Koszt: {0:F0}'}"
+                            <Label Text="{Binding Cost, StringFormat='Koszt: {0:F0} XP'}"
                                    FontSize="14"
                                    TextColor="#666666" />
 
