@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\projekty\\Clickerr\\CompotClicker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\style\\lighttheme.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\style\\lighttheme.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|c:\\projekty\\clickerr\\compotclicker\\compotclicker\\compotclicker\\style\\darktheme.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{AD79B515-1B62-41F1-8C77-E0D01A82BF32}|CompotClicker\\CompotClicker\\CompotClicker.csproj|solutionrelative:compotclicker\\compotclicker\\style\\darktheme.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "LightTheme.xaml",
+              "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Style\\LightTheme.xaml",
+              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Style\\LightTheme.xaml",
+              "ToolTip": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Style\\LightTheme.xaml",
+              "RelativeToolTip": "CompotClicker\\CompotClicker\\Style\\LightTheme.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T06:33:38.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Style\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Style\\DarkTheme.xaml",
+              "ToolTip": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Style\\DarkTheme.xaml",
+              "RelativeToolTip": "CompotClicker\\CompotClicker\\Style\\DarkTheme.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-04T06:33:30.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\App.xaml.cs",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\App.xaml.cs",
@@ -51,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\App.xaml",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\App.xaml",
@@ -64,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SettingsPage.xaml.cs",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml.cs",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml.cs",
               "ToolTip": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml.cs",
               "RelativeToolTip": "CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T06:16:34.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SettingsPage.xaml",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Views\\SettingsPage.xaml",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SettingsViewModel.cs",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\ViewModels\\SettingsViewModel.cs",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\ViewModels\\SettingsViewModel.cs",
@@ -103,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\projekty\\Clickerr\\CompotClicker\\CompotClicker\\CompotClicker\\Services\\GameService.cs",
               "RelativeDocumentMoniker": "CompotClicker\\CompotClicker\\Services\\GameService.cs",

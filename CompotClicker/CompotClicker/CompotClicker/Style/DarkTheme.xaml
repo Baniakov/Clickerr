@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Color x:Key="BackgroundColor">#121212</Color>
+    <Color x:Key="TextColor">White</Color>
+    <Color x:Key="ButtonBackgroundColor">#6200EE</Color>
+    <Color x:Key="ButtonTextColor">White</Color>
+</ResourceDictionary>
