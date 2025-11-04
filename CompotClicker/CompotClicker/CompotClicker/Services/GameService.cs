@@ -7,6 +7,7 @@ namespace CompotClicker
 {
     public class GameService
     {
+
         public event System.Action GameStateChanged;
         private static GameService _instance;
         public static GameService Instance
@@ -34,13 +35,13 @@ namespace CompotClicker
         public int Level { get; private set; }
 
         // --- Punkty / klikanie (mechanika gry) ---
-        public double TotalPoints { get; private set; }            // (opcjonalne — zachowane dla kompatybilności)
+        public double TotalPoints { get; set; }            // (opcjonalne — zachowane dla kompatybilności)
         public double PointsPerClick { get; private set; }
         public int ClickCount { get; private set; }
 
         public HashSet<string> PurchasedItems { get; private set; }
 
-        private GameService()
+        public GameService()
         {
             PurchasedItems = new HashSet<string>();
             LoadGame();

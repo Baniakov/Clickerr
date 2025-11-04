@@ -19,10 +19,11 @@
                HasShadow="True">
             <!-- Teraz pokazujemy ile XP (waluty) ma gracz -->
             <Label Text="{Binding TotalPoints, StringFormat='Masz {0:F0} XP'}"
-                   FontSize="26"
-                   FontAttributes="Bold"
-                   TextColor="#333333"
-                   HorizontalOptions="Center" />
+       FontSize="26"
+       FontAttributes="Bold"
+       TextColor="#333333"
+       HorizontalOptions="Center" />
+
         </Frame>
 
         <Label Text="Dostępne ulepszenia:"

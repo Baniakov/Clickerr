@@ -1907,3 +1907,5 @@ C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClick
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker.Android\obj\Debug\130\android\assets\Microsoft.Win32.Registry.dll
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker.Android\obj\Debug\130\android\assets\nunit.framework.dll

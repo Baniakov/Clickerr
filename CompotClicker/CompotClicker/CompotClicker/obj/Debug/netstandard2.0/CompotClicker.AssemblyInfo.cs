@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompotClicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5aae19d2333ad2200286908fa47bf0440c0f689")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c4df65b569cc6a45ef57cd51ba1819eca07383b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompotClicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompotClicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

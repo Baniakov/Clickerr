@@ -25,11 +25,15 @@ namespace CompotClicker
 
         private void OnBuy()
         {
-            if (IsPurchased)
+            if (GameService.Instance.TryPurchaseXP(Cost, BonusPerClick))
             {
-                Application.Current.MainPage.DisplayAlert("Informacja", Name + " już zakupiono.", "OK");
-                return;
+                IsPurchased = true;
+                Application.Current.MainPage.DisplayAlert("Sukces", "Zakupiono: " + Name + "!", "OK");
+                GameService.Instance.MarkItemAsPurchased(Id);
+
+                MessagingCenter.Send(this, "UpgradePurchased");
             }
+
 
             // Używamy TryPurchaseXP — zakup opłacany jest z dostępnego XP (waluty).
             if (GameService.Instance.TryPurchaseXP(Cost, BonusPerClick))
