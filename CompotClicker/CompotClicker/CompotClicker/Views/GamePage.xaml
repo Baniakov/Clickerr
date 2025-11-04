@@ -5,29 +5,34 @@
              x:Class="CompotClicker.GamePage"
              Title="🍎 Kompot"
              BackgroundColor="#F9FAFB">
+    <StackLayout Orientation="Vertical" Padding="20" Spacing="25">
+        <!-- Pasek z levelem i postępem -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Spacing="10">
+            <Label Text="{Binding LevelDisplay}" VerticalOptions="Center" />
+            <ProgressBar Progress="{Binding Progress}" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
 
+        <StackLayout Padding="30" Spacing="25" VerticalOptions="Center" >
 
-    <StackLayout Padding="30" Spacing="25" VerticalOptions="Center">
-
-        <Frame BackgroundColor="#FFFFFF"
+            <Frame BackgroundColor="#FFFFFF"
                CornerRadius="12"
                Padding="20"
                HasShadow="True">
-            <StackLayout Spacing="10">
-                <Label Text="{Binding TotalPoints, StringFormat='Punkty: {0:F0}'}"
+                <StackLayout Spacing="10">
+                    <Label Text="{Binding TotalPoints, StringFormat='Punkty: {0:F0}'}"
                        FontSize="28"
                        FontAttributes="Bold"
                        TextColor="#333333"
                        HorizontalOptions="Center" />
 
-                <Label Text="{Binding PointsPerClick, StringFormat='Na klik: {0}'}"
+                    <Label Text="{Binding PointsPerClick, StringFormat='Na klik: {0}'}"
                        FontSize="20"
                        TextColor="#666666"
                        HorizontalOptions="Center" />
-            </StackLayout>
-        </Frame>
+                </StackLayout>
+            </Frame>
 
-        <ImageButton Source="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png"
+            <ImageButton Source="https://png.pngtree.com/png-vector/20231017/ourmid/pngtree-fresh-apple-fruit-red-png-image_10203073.png"
                      BackgroundColor="Transparent"
                      Command="{Binding ClickCommand}"
                      WidthRequest="200"
@@ -36,18 +41,19 @@
                      Padding="0"
                      BorderWidth="0"
                      HorizontalOptions="Center">
-            <ImageButton.Triggers>
-                <Trigger TargetType="ImageButton" Property="IsPressed" Value="True">
-                    <Setter Property="Scale" Value="0.95" />
-                </Trigger>
-            </ImageButton.Triggers>
-        </ImageButton>
+                <ImageButton.Triggers>
+                    <Trigger TargetType="ImageButton" Property="IsPressed" Value="True">
+                        <Setter Property="Scale" Value="0.95" />
+                    </Trigger>
+                </ImageButton.Triggers>
+            </ImageButton>
 
-        <Label Text="Kliknij jabłko, by zdobywać punkty!"
+            <Label Text="Kliknij jabłko, by zdobywać punkty i XP!"
                FontSize="16"
                TextColor="#888888"
                HorizontalOptions="Center"
                Margin="0,10,0,0" />
 
+        </StackLayout>
     </StackLayout>
 </ContentPage>

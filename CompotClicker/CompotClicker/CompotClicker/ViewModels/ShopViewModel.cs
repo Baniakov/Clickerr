@@ -11,9 +11,10 @@ namespace CompotClicker
         private GameService _game;
         public event PropertyChangedEventHandler PropertyChanged;
 
+        // Teraz pokazujemy dostępne XP (waluta), a nie TotalPoints
         public double TotalPoints
         {
-            get { return _game.TotalPoints; }
+            get { return _game.AvailableExperience; }
         }
 
         public ObservableCollection<UpgradeItem> Upgrades { get; private set; }
@@ -24,6 +25,7 @@ namespace CompotClicker
 
             Upgrades = new ObservableCollection<UpgradeItem>
             {
+                // Koszty tutaj traktujemy jako XP
                 new UpgradeItem("upgrade_1", "Większa łyżka", 50, 1),
                 new UpgradeItem("upgrade_2", "Złoty garnek", 200, 5),
                 new UpgradeItem("upgrade_3", "Magiczny owoc", 1000, 25)
@@ -37,14 +39,18 @@ namespace CompotClicker
                     u.IsPurchased = true;
             }
 
-            // Odśwież etykietę punktów co sekundę
+            // Odśwież etykietę XP co sekundę (by pokazać przyrost waluty)
             Device.StartTimer(System.TimeSpan.FromSeconds(1), () =>
             {
                 OnPropertyChanged("TotalPoints");
                 return true;
             });
 
-
+            // Subskrybuj zmiany w GameService, by odświeżać widok sklepu
+            _game.GameStateChanged += () =>
+            {
+                OnPropertyChanged(nameof(TotalPoints));
+            };
         }
 
         private void OnPropertyChanged([CallerMemberName] string name = "")
