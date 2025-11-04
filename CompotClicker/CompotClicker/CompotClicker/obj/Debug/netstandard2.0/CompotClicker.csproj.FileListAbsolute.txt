@@ -49,3 +49,4 @@ C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClick
 C:\Users\egzamin\Desktop\cliker\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\ShopPage.xaml.g.cs
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\GamePage.xaml.g.cs
 C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\ShopPage.xaml.g.cs
+C:\projekty\Clickerr\CompotClicker\CompotClicker\CompotClicker\obj\Debug\netstandard2.0\Views\SettingsPage.xaml.g.cs
