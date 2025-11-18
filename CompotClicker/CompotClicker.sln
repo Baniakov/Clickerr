@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker.Android", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker", "CompotClicker\CompotClicker\CompotClicker.csproj", "{AD79B515-1B62-41F1-8C77-E0D01A82BF32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompotClicker.Tests1", "CompotClicker.Tests1\CompotClicker.Tests1.csproj", "{0651348F-0F6E-4D8E-A8C4-B6E0AD9FC2D0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD79B515-1B62-41F1-8C77-E0D01A82BF32}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{0651348F-0F6E-4D8E-A8C4-B6E0AD9FC2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0651348F-0F6E-4D8E-A8C4-B6E0AD9FC2D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0651348F-0F6E-4D8E-A8C4-B6E0AD9FC2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0651348F-0F6E-4D8E-A8C4-B6E0AD9FC2D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
